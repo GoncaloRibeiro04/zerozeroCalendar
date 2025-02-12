@@ -1,2 +1,2 @@
-# zerozeroHRM
-App to manage the zerozero's Human Resources
+# zerozeroCalendar
+Calendar app to schedule events, meetings, vacations, etc.  
