@@ -2,30 +2,42 @@
 
 ## User Story 1 - Como usuário, quero fazer login no sistema
 
+### Descrição
+Como um user (colaborador, gerente de departamento ou administrador) do sistema, quero fazer login de forma segura no sistema usando minhas credenciais (e-mail e senha) para que eu possa acessar meu painel personalizado, gerir o meu horário, submeter pedidos de férias, visualizar notificações e realizar tarefas específicas do meu cargo (por exemplo, aprovar pedidos para gerentes/administradores). Isso garante que eu possa participar eficientemente dos processos de RH e fluxo de trabalho da empresa, mantendo privacidade e segurança.
+
 ### Critérios de Aceitação
 - O sistema deve permitir que o usuário faça login com suas credenciais.
 - O sistema deve permitir que o usuário faça logout a qualquer momento.
 - O sistema deve oferecer uma opção para o usuário recuperar sua senha em caso de esquecimento.
 - O sistema deve permitir que o usuário altere sua senha após o login.
+- O sistema de login deve suportar diferentes cargos de usuário (colaborador, gerente, administrado).
 
 ---
 
 ## User Story 2 - Como colaborador, quero criar e atualizar meu perfil pessoal
 
+### Descrição
+Como um colaborador, quero criar e atualizar meu perfil pessoal com informações como nome, contato (e-mail, telefone), cargo, departamento para que eu possa manter meus dados atualizados, facilitar a comunicação dentro da empresa e garantir que o sistema reflita corretamente minha identidade e funções.
+
 ### Critérios de Aceitação
 - O sistema deve permitir que colaboradores insiram suas informações pessoais (ex.: nome, contato, etc.).
 - O sistema deve permitir que colaboradores atualizem suas informações pessoais sempre que necessário.
 - O sistema deve exibir as informações pessoais do colaborador para visualização.
+- Os administradores podem visualizar/editar perfis de outros usuários.
 
 ---
 
 ## User Story 3 - Como colaborador, quero marcar e atualizar meus horários de trabalho e dias de folga
+
+### Descrição
+Como um colaborador, quero marcar e atualizar meus horários de trabalho (por exemplo, turnos diários, semanais ou avulsos) e meus dias de folga para que eu possa gerenciar minha disponibilidade, garantir uma distribuição equilibrada de tarefas e manter o sistema atualizado com minha agenda. Isso permite que eu participe eficientemente dos fluxos de trabalho da empresa, respeite períodos de (in)disponibilidade e férias, e facilite a coordenação com os colegas, enquanto asseguro a precisão e a flexibilidade dos meus horários.
 
 ### Critérios de Aceitação
 - O sistema deve permitir que colaboradores registrem seus horários de trabalho.
 - O sistema deve permitir que colaboradores atualizem seus horários de trabalho registrados.
 - O sistema deve permitir que colaboradores marquem seus dias de folga.
 - O sistema deve permitir que colaboradores atualizem seus dias de folga registrados.
+- O sistema deve impedir marcações não autorizadas (por exemplo, um colaborador não pode marcar folgas que violem políticas da empresa, como limites de dias ou conflitos com turnos obrigatórios).
 
 ---
 
